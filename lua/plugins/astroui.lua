@@ -9,13 +9,10 @@ return {
   ---@type AstroUIOpts
   opts = {
     -- change colorscheme
-    colorscheme = "dracula",
+    colorscheme = "catppuccin",
     -- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
     highlights = {
       init = { -- this table overrides highlights in all themes
-        -- Normal = { bg = "#000000" },
-      },
-      astrotheme = { -- a table of overrides/changes when applying the astrotheme theme
         -- Normal = { bg = "#000000" },
       },
     },
@@ -34,7 +31,15 @@ return {
       LSPLoading10 = "⠏",
     },
     colors = {
-      bg = "#000000",
+      -- bg = "#000000",
     },
   },
+  -- {
+  --   "loctvl842/monokai-pro.nvim",
+  --   config = function()
+  --     require("monokai-pro").setup {
+  --       filter = "pro", -- classic | octagon | pro | machine | ristretto | spectrum
+  --     }
+  --   end,
+  -- },
 }
