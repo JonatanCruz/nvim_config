@@ -43,6 +43,8 @@ return {
         termguicolors = true,
         -- backspace
         backspace = "indent,eol,start", -- allow backspace on indent, end of line or insert mode start position
+        -- scrolloff
+        scrolloff = 15,
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
