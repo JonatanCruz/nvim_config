@@ -7,9 +7,10 @@ return {
   "AstroNvim/astrocommunity",
   -- { import = "astrocommunity.colorscheme.dracula-nvim" },
   -- { import = "astrocommunity.colorscheme.sonokai" },
-  { import = "astrocommunity.colorscheme.catppuccin" },
+  -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.colorscheme.kanagawa-nvim" },
   -- { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
+  { import = "astrocommunity.colorscheme.cyberdream-nvim" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.pack.tailwindcss" },
@@ -35,6 +36,8 @@ return {
   { import = "astrocommunity.completion.cmp-cmdline" },
   { import = "astrocommunity.completion.codeium-vim" },
   { import = "astrocommunity.diagnostics.lsp_lines-nvim" },
+  { import = "astrocommunity.diagnostics.error-lens-nvim" },
   { import = "astrocommunity.lsp.inc-rename-nvim" },
+  { import = "astrocommunity.lsp.lsp-signature-nvim" },
   -- import/override with your plugins folder
 }

@@ -34,6 +34,10 @@ return {
           ["<leader>Y"] = { '"+Y', desc = "Copy selected line in clipboard too" },
           ["<leader>s"] = { [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]], desc = "Replace text in file" },
         },
+        i = {
+          ["jj"] = { "<esc>", desc = "Exit Insert Mode" },
+          ["kk"] = { "<esc>", desc = "Exit Insert Mode" },
+        },
         t = {
           -- setting a mapping to false will disable it
           -- ["<esc>"] = false,
