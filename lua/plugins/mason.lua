@@ -15,7 +15,7 @@ return {
         "html",
         "jsonls",
         "tailwindcss",
-        "tsserver",
+        -- "ts-ls",
         "volar",
         -- add more arguments for adding more language servers
       })
