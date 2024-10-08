@@ -11,6 +11,7 @@ return {
   -- { import = "astrocommunity.colorscheme.kanagawa-nvim" },
   -- { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
   -- { import = "astrocommunity.colorscheme.cyberdream-nvim" },
+  -- { import = "astrocommunity.colorscheme.nord-nvim" },
   { import = "astrocommunity.bars-and-lines.bufferline-nvim" },
   { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
   { import = "astrocommunity.bars-and-lines.lualine-nvim" },
