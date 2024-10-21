@@ -6,23 +6,35 @@ return {
     "rebelot/heirline.nvim",
     enabled = false,
   },
-  {
-    "nvim-lualine/lualine.nvim",
-    config = function()
-      local custom_dracula = require "lualine.themes.dracula"
-      local color_base = "#f8f8f2"
-      custom_dracula.normal.a.fg = color_base
-      custom_dracula.insert.a.fg = color_base
-      custom_dracula.visual.a.fg = color_base
-      custom_dracula.replace.a.fg = color_base
-      custom_dracula.command.a.fg = color_base
 
-      require("lualine").setup {
-        options = {
-          theme = custom_dracula,
-          -- ... your lualine config
-        },
-      }
+  -- modicator (auto color line number based on vim mode)
+  {
+    "mawkler/modicator.nvim",
+    dependencies = "scottmckendry/cyberdream.nvim",
+    init = function()
+      -- These are required for Modicator to work
+      vim.o.cursorline = false
+      vim.o.number = true
+      vim.o.termguicolors = true
     end,
+    opts = {},
+  },
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+    opts = {
+      window = {
+        position = "right",
+        mappings = {
+          ["Y"] = "none",
+        },
+      },
+      filesystem = {
+        filtered_items = {
+          always_show = {
+            ".env",
+          },
+        },
+      },
+    },
   },
 }

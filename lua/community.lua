@@ -5,13 +5,7 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
-  { import = "astrocommunity.colorscheme.dracula-nvim" },
-  -- { import = "astrocommunity.colorscheme.sonokai" },
-  -- { import = "astrocommunity.colorscheme.catppuccin" },
-  -- { import = "astrocommunity.colorscheme.kanagawa-nvim" },
-  -- { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
-  -- { import = "astrocommunity.colorscheme.cyberdream-nvim" },
-  -- { import = "astrocommunity.colorscheme.nord-nvim" },
+  { import = "astrocommunity.colorscheme.cyberdream-nvim" },
   { import = "astrocommunity.bars-and-lines.bufferline-nvim" },
   { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
   { import = "astrocommunity.bars-and-lines.lualine-nvim" },
@@ -31,10 +25,8 @@ return {
   { import = "astrocommunity.color.modes-nvim" },
   { import = "astrocommunity.color.twilight-nvim" },
   { import = "astrocommunity.color.vim-highlighter" },
-  { import = "astrocommunity.terminal-integration.vim-tpipeline" },
   { import = "astrocommunity.recipes.astrolsp-no-insert-inlay-hints" },
-  { import = "astrocommunity.recipes.neo-tree-dark" },
-  -- { import = "astrocommunity.recipes.telescope-lsp-mappings" },
+  { import = "astrocommunity.recipes.telescope-lsp-mappings" },
   { import = "astrocommunity.recipes.vscode-icons" },
   { import = "astrocommunity.file-explorer.oil-nvim" },
   { import = "astrocommunity.motion.harpoon" },
@@ -43,10 +35,6 @@ return {
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.completion.cmp-cmdline" },
   { import = "astrocommunity.completion.supermaven-nvim" },
-  -- { import = "astrocommunity.completion.codeium-vim" },
-  -- { import = "astrocommunity.diagnostics.lsp_lines-nvim" },
-  -- { import = "astrocommunity.diagnostics.error-lens-nvim" },
   { import = "astrocommunity.lsp.inc-rename-nvim" },
-  { import = "astrocommunity.lsp.lsp-signature-nvim" },
   -- import/override with your plugins folder
 }

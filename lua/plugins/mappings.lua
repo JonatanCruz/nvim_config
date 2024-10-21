@@ -46,10 +46,9 @@ return {
           J = { ":m '>+1<CR>gv=gv", desc = "Move selected text down" },
           K = { ":m '<-2<CR>gv=gv", desc = "Move selected text up" },
           ["<leader>y"] = { '"+y', desc = "Copy also in the clipboard" },
-        },
-        x = {
           ["<leader>p"] = { '"_dP', desc = "Paste without replace the buffer" },
         },
+        x = {},
       },
     },
   },
